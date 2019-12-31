@@ -1,0 +1,183 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.2
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_231
+java.home            : C:\Program Files\Java\jre1.8.0_231
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Wed Dec 25 16:59:26 IST 2019
+Loading Browser Profile
+Loading RunManager
+[Scenario:AccessibilityTesting] [TestCase: AccessibilityActions] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 9532
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+2019-12-25 16:59:26:12S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:invalid argument: 'firstMatch' must contain at least one entry
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-F990BSN', ip: '192.168.43.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005EA113+1548563]
+	Ordinal0 [0x0056DDA1+1039777]
+	Ordinal0 [0x004EE485+517253]
+	Ordinal0 [0x0049ACC2+175298]
+	Ordinal0 [0x0049A79E+173982]
+	Ordinal0 [0x0049B630+177712]
+	Ordinal0 [0x0049B59D+177565]
+	Ordinal0 [0x004995FB+169467]
+	Ordinal0 [0x0048160A+71178]
+	Ordinal0 [0x00482690+75408]
+	Ordinal0 [0x00482629+75305]
+	Ordinal0 [0x005871B7+1143223]
+	GetHandleVerifier [0x00682B46+507814]
+	GetHandleVerifier [0x00682864+507076]
+	GetHandleVerifier [0x00689F47+537511]
+	GetHandleVerifier [0x00683402+510050]
+	Ordinal0 [0x0057F29C+1110684]
+	Ordinal0 [0x0058938B+1151883]
+	Ordinal0 [0x005894F3+1152243]
+	Ordinal0 [0x005883F5+1147893]
+	BaseThreadInitThunk [0x76806359+25]
+	RtlGetAppContainerNamedObjectPath [0x77267B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77267B44+180]
+
+org.openqa.selenium.InvalidArgumentException: invalid argument: 'firstMatch' must contain at least one entry
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-F990BSN', ip: '192.168.43.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005EA113+1548563]
+	Ordinal0 [0x0056DDA1+1039777]
+	Ordinal0 [0x004EE485+517253]
+	Ordinal0 [0x0049ACC2+175298]
+	Ordinal0 [0x0049A79E+173982]
+	Ordinal0 [0x0049B630+177712]
+	Ordinal0 [0x0049B59D+177565]
+	Ordinal0 [0x004995FB+169467]
+	Ordinal0 [0x0048160A+71178]
+	Ordinal0 [0x00482690+75408]
+	Ordinal0 [0x00482629+75305]
+	Ordinal0 [0x005871B7+1143223]
+	GetHandleVerifier [0x00682B46+507814]
+	GetHandleVerifier [0x00682864+507076]
+	GetHandleVerifier [0x00689F47+537511]
+	GetHandleVerifier [0x00683402+510050]
+	Ordinal0 [0x0057F29C+1110684]
+	Ordinal0 [0x0058938B+1151883]
+	Ordinal0 [0x005894F3+1152243]
+	Ordinal0 [0x005883F5+1147893]
+	BaseThreadInitThunk [0x76806359+25]
+	RtlGetAppContainerNamedObjectPath [0x77267B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77267B44+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:178)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:146)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:187)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:167)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:157)
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:151)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:121)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[DEBUG]   | invalid argument: 'firstMatch' must contain at least one entry
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-F990BSN', ip: '192.168.43.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005EA113+1548563]
+	Ordinal0 [0x0056DDA1+1039777]
+	Ordinal0 [0x004EE485+517253]
+	Ordinal0 [0x0049ACC2+175298]
+	Ordinal0 [0x0049A79E+173982]
+	Ordinal0 [0x0049B630+177712]
+	Ordinal0 [0x0049B59D+177565]
+	Ordinal0 [0x004995FB+169467]
+	Ordinal0 [0x0048160A+71178]
+	Ordinal0 [0x00482690+75408]
+	Ordinal0 [0x00482629+75305]
+	Ordinal0 [0x005871B7+1143223]
+	GetHandleVerifier [0x00682B46+507814]
+	GetHandleVerifier [0x00682864+507076]
+	GetHandleVerifier [0x00689F47+537511]
+	GetHandleVerifier [0x00683402+510050]
+	Ordinal0 [0x0057F29C+1110684]
+	Ordinal0 [0x0058938B+1151883]
+	Ordinal0 [0x005894F3+1152243]
+	Ordinal0 [0x005883F5+1147893]
+	BaseThreadInitThunk [0x76806359+25]
+	RtlGetAppContainerNamedObjectPath [0x77267B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77267B44+180]
+
+
+===================================================================================================
+
+2019-12-25 16:59:26:12S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler updateTestLog:null
+java.lang.NullPointerException
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:103)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:134)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:105)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:188)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:176)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:133)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+---------------------------------------------------
+Testcase Name        : AccessibilityTesting:AccessibilityActions
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+Run Finished on Wed Dec 25 16:59:27 IST 2019
+Performance log not found. Make sure "capturePageTimings" action is included in testcase. 
+-----------------------------------------------------
+ExecutionDate        : 25-Dec-2019 16-59-26
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:01
+ReportPath           : file:///C:\Users\User\Desktop\cognizant-intelligent-test-scripter-1.2-setup\cognizant-intelligent-test-scripter-1.2\Projects\DemoProject\Results\TestDesign\AccessibilityTesting\AccessibilityActions\25-Dec-2019 16-59-26\summary.html
+-----------------------------------------------------
